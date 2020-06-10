@@ -1,0 +1,138 @@
+/*here start header*/
+
+.wrapper {
+	position: fixed;
+	background-color: #fff;
+	z-index: 5;
+	
+}
+.d-inline-block {
+	display: inline-block;
+}
+.container {
+	position: absolute;
+	width: 1170px;
+	margin: 0 auto;
+	left: 98px;
+	top: 21px;
+}
+.logo img {
+	width: 196.7px;
+	height: 60px;
+	vertical-align: middle;
+}
+.nav-li {
+	vertical-align: middle;
+}
+.nav-li:first-child{
+	margin-left: 90px;
+}
+.navbar-li a {
+	margin-left: 60px;
+	font-family: "Roboto-Regular";
+	font-size:24px;
+	color: #3D58A6;
+}
+.social-items  .social{
+	vertical-align: middle;
+	margin-left: 30px;
+	border-right: 1px solid #363E97; 
+}
+.social:first-child{
+	margin-left: 130px;
+}
+.social:last-child{
+	border-right: none;
+}
+.clear {
+	clear: both;
+}
+/*here is first section*/
+.gray-bg {
+	position: relative;
+	margin-top: 100px;
+	height: 520px;
+	padding-top:30px;
+	background-color: #E6E6E6;
+
+}
+.container2 {
+	position: relative;
+	width: 1170px;
+	margin: 0 auto;
+
+}
+.gray-text {
+	position: absolute;
+	font-family: "Roboto-Regular";
+	font-size: 30px;
+	left: 30px;
+
+}
+.white-logo {
+	position: absolute;
+	float: left;
+
+}
+/*second section*/
+.blue-bg {
+	position: sticky;
+	height: 499px;
+	background-color: #363E97;
+}
+h2 {
+	color: white;
+	font-size: 24px;
+	font-family: "Roboto-Regular";
+	margin-bottom: 28px;
+}
+.white-box {
+	position: relative;
+	vertical-align: top;
+	background-color: white;
+	width: 570px;
+	height: 320px;
+}
+.white-box:last-child {
+	right: 0;
+}
+.middle-text {
+	position: absolute; 
+	top: 50%;
+    left: 134px;
+    font-size: 16px;
+	font-family: "Roboto-Regular";
+}
+.middle-text2 {
+	position: absolute; 
+	top: 50%;
+    left: 700px;
+    font-size: 16px;
+	font-family: "Roboto-Regular";
+}
+/*third section*/
+h3{
+	color: #3D58A6;
+	font-size: 24px;
+	font-family: "Roboto-Regular";
+	margin-bottom: 27.5px;
+}
+.third {
+	position: relative;
+	height:450px;
+	background-color: #BDCCD4;
+}
+.square {
+	width: 270px;
+	height: 270px;
+	background-color: #E6E6E6;
+	margin-right: 19.5px;
+}
+/*.square:last-child {
+	margin-right: 0;*/
+}
+.last-section {
+	position: relative;
+	height:345.46px;
+	background-color: #E6E6E6;
+}
