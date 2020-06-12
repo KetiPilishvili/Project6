@@ -118,10 +118,18 @@ h3{
 	width: 270px;
 	height: 270px;
 	background-color: #E6E6E6;
+}
+.square:first-child{
 	margin-right: 25px;
 }
-.square:nth-child(4){
-	margin-left: 0;
+.square:nth-child(2){
+	margin-right: 25px;
+}
+.square:nth-child(3){
+	margin-right: 25px;
+}
+.square:last-child{
+	left: 0;
 }
 .square-image{
 	position: absolute;
@@ -175,7 +183,7 @@ h4 {
 	font-size: 20px;
 	font-family: "Roboto-Regular";
 }
-#read-more{
+.read-more{
 	position: absolute;
 	font-size: 14px;
 	font-family: "Roboto-Regular";
